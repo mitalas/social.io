@@ -255,6 +255,10 @@
 }
 
 @media (max-width:798px) {
+    .wrapper {
+        padding: 1rem;
+    }
+
     .nav_span {
         font-size: 17px;
         letter-spacing: 0;
@@ -270,8 +274,17 @@
         width: 100%;
     }
 
-    .pledge_text {
+    .pledge_texts {
+        color: rgba(125.26875212788582, 134.17675852775574, 139.18750405311584, 1);
+        width: 100%;
+        position: relative;
+        font-family: IBM Plex Sans;
+        font-size: 30px;
+        letter-spacing: 0;
+        margin: 0;
+    }
 
+    .pledge_text {
         font-size: 30px;
         letter-spacing: 0;
         width: 100%;

@@ -1,0 +1,265 @@
+.wrapper {
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navBar {
+    height: 80px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_span {
+    color: rgba(0, 0, 0, 1);
+    height: 31px;
+    position: relative;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    letter-spacing: 0;
+}
+
+.nav_logo {
+    height: 32px;
+    position: relative;
+}
+
+.nav_logo_text {
+    color: rgba(0, 0, 0, 1);
+    height: 20px;
+    position: relative;
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    letter-spacing: 0;
+}
+
+.home {
+    height: 100vh;
+    position: relative;
+}
+
+.home_sub {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    color: rgba(0, 120.89739829301834, 188.06250303983688, 1);
+    font-family: IBM Plex Sans;
+    text-align: left;
+    font-size: 64px;
+    letter-spacing: -2;
+}
+
+.home_content .para {
+    color: rgba(125.26875212788582, 134.17675852775574, 139.18750405311584, 1);
+    font-family: IBM Plex Sans;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+.home_div {
+    position: relative;
+    width: 60%;
+}
+
+.home_content {
+    position: relative;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_blue {
+    background-color: rgba(0, 120.89739829301834, 188.06250303983688, 1);
+    display: inline;
+    padding: .67rem 1rem;
+    border-radius: 1rem;
+}
+
+.button_blue a {
+    font-family: IBM Plex Sans;
+    color: white;
+    text-decoration: none;
+}
+
+.white_button {
+    padding: .67rem 1rem;
+    border: 1px solid gray;
+    border-radius: 2rem;
+    display: inline;
+    text-decoration: none;
+}
+
+.white_button a {
+    font-family: IBM Plex Sans;
+    text-decoration: none;
+}
+
+.scroll {
+    color: rgba(125.26875212788582, 134.17675852775574, 139.18750405311584, 1);
+    height: 31px;
+    position: relative;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    letter-spacing: 0;
+}
+
+.pledge {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pledge_text {
+    color: rgba(0, 120.89739829301834, 188.06250303983688, 1);
+    height: 83px;
+    position: relative;
+    font-family: IBM Plex Sans;
+    font-size: 64px;
+    letter-spacing: 0;
+}
+
+.caption {
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.caption {
+    height: 44px;
+    position: relative;
+    border-bottom-right-radius: 100px;
+}
+
+.pledge_caption {
+    color: rgba(0, 0, 0, 1);
+    height: 24px;
+    position: relative;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    letter-spacing: 0;
+}
+
+.pledge_texts {
+    color: rgba(125.26875212788582, 134.17675852775574, 139.18750405311584, 1);
+    height: 364px;
+    position: relative;
+    font-family: IBM Plex Sans;
+    font-size: 40px;
+    letter-spacing: 0;
+}
+
+.social {
+    height: 746px;
+    position: relative;
+}
+
+.social_left {
+    height: 147px;
+    position: relative;
+}
+
+.social_text {
+    color: rgba(0, 120.89739829301834, 188.06250303983688, 1);
+    height: 83px;
+    position: relative;
+    font-family: IBM Plex Sans;
+    font-size: 64px;
+    letter-spacing: 0;
+}
+
+.social_caption {
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.social_caption {
+    height: 44px;
+    position: relative;
+    border-bottom-right-radius: 100px;
+}
+
+.social_para {
+    color: rgba(125.26875212788582, 134.17675852775574, 139.18750405311584, 1);
+    height: 364px;
+    position: relative;
+    font-family: IBM Plex Sans;
+    font-size: 40px;
+    letter-spacing: 0;
+}
+
+.why {
+    height: 100vh;
+    position: relative;
+}
+
+.why_section_sub {
+    height: 303px;
+    position: relative;
+}
+
+.why_section_sub_head {
+    color: rgba(0, 120.89739829301834, 188.06250303983688, 1);
+    height: 124px;
+    position: relative;
+    font-family: IBM Plex Sans;
+    font-size: 48px;
+    letter-spacing: 0;
+}
+
+.why_section_para {
+    color: rgba(125.26875212788582, 134.17675852775574, 139.18750405311584, 1);
+    height: 155px;
+    position: relative;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    letter-spacing: 0;
+}
+
+.testmonials {
+    height: 729px;
+    position: relative;
+}
+
+.testmonials_head {
+    color: rgba(0, 120.89739829301834, 188.06250303983688, 1);
+    height: 83px;
+    position: relative;
+    font-family: IBM Plex Sans;
+    font-size: 64px;
+    letter-spacing: 0;
+}
+
+.testmonial {
+    height: 181px;
+    position: relative;
+}
+
+.find {
+    height: 2400px;
+    position: relative;
+}
+
+.find_head {
+    color: rgba(0, 120.89739829301834, 188.06250303983688, 1);
+    height: 83px;
+    position: relative;
+    font-family: IBM Plex Sans;
+    font-size: 64px;
+    letter-spacing: 0;
+}
+
+.wrap_span {
+    color: rgba(125.26875212788582, 134.17675852775574, 139.18750405311584, 1);
+    height: 155px;
+    position: relative;
+    font-family: IBM Plex Sans;
+
+    font-size: 24px;
+    letter-spacing: 0;
+}

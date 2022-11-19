@@ -64,6 +64,15 @@
     letter-spacing: 0;
 }
 
+.why_section_para {
+    color: rgba(125.26875212788582, 134.17675852775574, 139.18750405311584, 1);
+    font-family: IBM Plex Sans;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+
 .home_div {
     position: relative;
     width: 60%;
@@ -117,7 +126,9 @@
     letter-spacing: 0;
 }
 
-.pledge {
+.pledge,
+.find_wrap,
+.why_section_sub {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

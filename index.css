@@ -1,6 +1,7 @@
 * {
     font-family: IBM Plex Sans;
 }
+
 .wrapper {
     max-width: 100%;
     width: 100%;
@@ -42,7 +43,7 @@
 .home_sub {
     position: relative;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: space-between;
 }
 
@@ -66,6 +67,10 @@
 .home_div {
     position: relative;
     width: 60%;
+}
+
+.home_div img {
+    width: 100%;
 }
 
 .home_content {
@@ -256,7 +261,7 @@
     }
 
     .heading {
-          font-size: 30px;
+        font-size: 30px;
         letter-spacing: 1;
     }
 
@@ -266,14 +271,14 @@
     }
 
     .pledge_text {
-     
+
         font-size: 30px;
         letter-spacing: 0;
         width: 100%;
     }
 
     .social_para {
-         font-family: IBM Plex Sans;
+        font-family: IBM Plex Sans;
         font-size: 20px;
     }
 

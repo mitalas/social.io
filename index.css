@@ -1,3 +1,6 @@
+* {
+    font-family: IBM Plex Sans;
+}
 .wrapper {
     max-width: 100%;
     width: 100%;
@@ -256,4 +259,22 @@
           font-size: 30px;
         letter-spacing: 1;
     }
+
+    .home_div {
+        position: relative;
+        width: 100%;
+    }
+
+    .pledge_text {
+     
+        font-size: 30px;
+        letter-spacing: 0;
+        width: 100%;
+    }
+
+    .social_para {
+         font-family: IBM Plex Sans;
+        font-size: 20px;
+    }
+
 }

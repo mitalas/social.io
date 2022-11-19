@@ -245,3 +245,15 @@
     font-size: 24px;
     letter-spacing: 0;
 }
+
+@media (max-width:798px) {
+    .nav_span {
+        font-size: 17px;
+        letter-spacing: 0;
+    }
+
+    .heading {
+          font-size: 30px;
+        letter-spacing: 1;
+    }
+}

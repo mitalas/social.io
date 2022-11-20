@@ -1,28 +1,28 @@
 * {
-    font-size: 14px;
+    font-size: 18px;
     color: rgba(125.26875212788582, 134.17675852775574, 139.18750405311584, 1);
     font-family: IBM Plex Sans;
 }
 
 .wrapper {
-    max-width: 100%;
-    width: 100%;
     padding: 0;
-    margin: 0;
+    margin: 3rem;
 }
 
 .navBar {
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    margin: 0 0 2rem 0;
+    text-align: center;
+    align-items: center;
     justify-content: space-between;
 }
 
 .nav_span {
-    color: rgba(0, 0, 0, 1);
     position: relative;
     font-family: IBM Plex Sans;
-    font-size: 24px;
+    font-size: 18px;
     letter-spacing: 0;
 }
 
@@ -31,21 +31,16 @@
 }
 
 .nav_logo_text {
-    color: rgba(0, 0, 0, 1);
+    color: rgba(0, 120.89739829301834, 188.06250303983688, 1);
     position: relative;
     font-family: IBM Plex Sans;
-    font-size: 20px;
+    font-size: 12px;
     letter-spacing: 0;
-}
-
-.home {
-    position: relative;
 }
 
 .home_sub {
     position: relative;
     display: flex;
-    flex-wrap: wrap-reverse;
     justify-content: space-between;
 }
 
@@ -53,8 +48,10 @@
     color: rgba(0, 120.89739829301834, 188.06250303983688, 1);
     font-family: IBM Plex Sans;
     text-align: left;
-    font-size: 64px;
-    letter-spacing: -2;
+    font-size: 44px;
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+    line-height: 49px;
 }
 
 .home_content .para {
@@ -66,32 +63,27 @@
     letter-spacing: 0;
 }
 
-.why_section_para {
+.why_section_sub {
     color: rgba(125.26875212788582, 134.17675852775574, 139.18750405311584, 1);
     font-family: IBM Plex Sans;
     text-align: left;
-    font-size: 14px;
     letter-spacing: 0;
+    width: 50%;
 }
 
 
 .home_div {
     position: relative;
-    width: 60%;
-}
-
-.home_div img {
-    width: 100%;
 }
 
 .home_content {
     position: relative;
-
 }
 
 .buttons {
     display: flex;
     justify-content: space-between;
+    margin: 2rem 1rem;
 }
 
 .button_blue {
@@ -124,43 +116,91 @@
     color: rgba(125.26875212788582, 134.17675852775574, 139.18750405311584, 1);
     position: relative;
     font-family: IBM Plex Sans;
-    font-size: 24px;
+    font-size: 20px;
     letter-spacing: 0;
 }
 
-.pledge,
-.find_wrap,
-.why_section_sub {
+.about_pledge,
+.home,
+.socials,
+.testmonials {
     display: flex;
-    flex-wrap: wrap;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.pledge,
+.why_section {
+    display: flex;
     justify-content: space-between;
+}
+
+.find_wrap {
+    width: 50%;
+}
+
+.find_section {
+    width: 70%;
+}
+
+.testmonial_name {
+    padding: 2rem 1rem;
+}
+
+.testmonial {
+    display: flex;
+    width: 100%;
+}
+
+.test {
+    padding: 1rem 0;
+    font-weight: 650;
+    text-align: center;
+    color: rgba(0, 120.89739829301834, 188.06250303983688, 1);
+}
+
+
+.find_subcontain {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.find_subcontain_reverse {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.image {
+    width: 45%;
+}
+
+.image img {
+    width: 100%;
 }
 
 .pledge_text {
     color: rgba(0, 120.89739829301834, 188.06250303983688, 1);
     position: relative;
     font-family: IBM Plex Sans;
-    font-size: 64px;
+    font-size: 34px;
     letter-spacing: 0;
     width: 60%;
 }
 
-
-.caption {
-    border: 1px solid rgba(0, 0, 0, 1);
-}
-
-.caption {
-    position: relative;
-    border-bottom-right-radius: 100px;
-}
-
 .pledge_caption {
-    color: rgba(0, 0, 0, 1);
+    border: 1px solid rgba(125.26875212788582, 134.17675852775574, 139.18750405311584, 1);
     position: relative;
     font-family: IBM Plex Sans;
     font-size: 24px;
+    border-radius: 2rem;
+    display: inline;
+    padding: .2rem 2rem;
     letter-spacing: 0;
+    margin: 2rem .4rem;
 }
 
 .pledge_texts {
@@ -168,9 +208,9 @@
     width: 60%;
     position: relative;
     font-family: IBM Plex Sans;
-    font-size: 30px;
+    font-size: 20px;
     letter-spacing: 0;
-    margin: 3rem 2rem;
+    margin: 1rem 0 2rem 0;
 }
 
 .social {
@@ -179,6 +219,8 @@
 
 .social_left {
     position: relative;
+    width: 45%;
+    padding-right: 20px;
 }
 
 .social_text {
@@ -190,12 +232,9 @@
 }
 
 .social_caption {
-    border: 1px solid rgba(0, 0, 0, 1);
-}
-
-.social_caption {
-    position: relative;
-    border-bottom-right-radius: 100px;
+    display: inline;
+    padding: .6rem 1.7rem;
+    border-radius: 2rem;
 }
 
 .social_para {
@@ -207,69 +246,89 @@
 }
 
 .why {
+    font-size: 25px;
     position: relative;
-}
-
-.why_section_sub {
-    position: relative;
-}
-
-.why_section_sub_head {
-    color: rgba(0, 120.89739829301834, 188.06250303983688, 1);
-    position: relative;
-    font-family: IBM Plex Sans;
-    font-size: 48px;
-    letter-spacing: 0;
 }
 
 .why_section_para {
     color: rgba(125.26875212788582, 134.17675852775574, 139.18750405311584, 1);
     position: relative;
     font-family: IBM Plex Sans;
-    font-size: 24px;
     letter-spacing: 0;
 }
 
-.testmonials {
-    position: relative;
-}
-
-.testmonials_head {
-    color: rgba(0, 120.89739829301834, 188.06250303983688, 1);
-    position: relative;
-    font-family: IBM Plex Sans;
-    font-size: 64px;
-    letter-spacing: 0;
-}
-
-.testmonial {
-    position: relative;
-}
 
 .find {
     position: relative;
 }
 
-.find_head {
+.wrap_contain {
+    padding: 1rem 0;
+    font-weight: 650;
+    text-align: center;
     color: rgba(0, 120.89739829301834, 188.06250303983688, 1);
-    position: relative;
-    font-family: IBM Plex Sans;
-    font-size: 64px;
-    letter-spacing: 0;
 }
 
 .wrap_span {
     color: rgba(125.26875212788582, 134.17675852775574, 139.18750405311584, 1);
     position: relative;
     font-family: IBM Plex Sans;
-
-    font-size: 24px;
+    font-size: 18px;
     letter-spacing: 0;
+}
+
+.sub_footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.left_footer {
+    width: 50%;
+}
+
+.cool_links {
+    width: 30%;
+}
+
+.copy {
+    display: flex;
+    justify-content: space-between;
 }
 
 @media (max-width:798px) {
     .wrapper {
-        padding: 1rem;
+        margin: 2rem 1rem;
+    }
+
+    .pledge,
+    .why_section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .about_pledge,
+    .section_home,
+    .socials,
+    .testmonials {
+        height: 100%;
+    }
+
+    .home_sub {
+        padding: 2rem 0 0 0;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-between;
+    }
+
+    .find_section {
+        width: 100%;
+    }
+
+    .why_section_sub {
+        width: 100%;
     }
 
     .nav_span {
@@ -278,8 +337,11 @@
     }
 
     .heading {
+        width: 100%;
+        line-height: 40px;
         font-size: 30px;
         letter-spacing: 1;
+        padding: 1rem 0 1rem 0;
     }
 
     .home_div {
@@ -287,14 +349,14 @@
         width: 100%;
     }
 
-    .pledge_texts {
-        color: rgba(125.26875212788582, 134.17675852775574, 139.18750405311584, 1);
+    .image {
         width: 100%;
-        position: relative;
-        font-family: IBM Plex Sans;
-        font-size: 30px;
-        letter-spacing: 0;
-        margin: 0;
+    }
+
+    .pledge_texts {
+        width: 100%;
+        font-size: 20px;
+        margin: 1rem 0 2rem 0;
     }
 
     .pledge_text {
@@ -303,9 +365,97 @@
         width: 100%;
     }
 
+    .social_left {
+        width: 100%;
+        padding-right: 0px;
+    }
+
+
     .social_para {
         font-family: IBM Plex Sans;
         font-size: 20px;
     }
 
+    .find_wrap {
+        width: 100%;
+    }
+
+    .buttons {
+        justify-content: space-between;
+        margin: 1rem 0 1rem 0;
+    }
+
+    .button_blue {
+        display: inline-block;
+        padding: .27rem 1rem;
+        border-radius: 1rem;
+    }
+
+    .button_blue a {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .white_button {
+        display: block;
+        padding: .27rem 1rem;
+        border-radius: 1rem;
+    }
+
+    .white_button a {
+        font-size: 13px;
+    }
+
+    .testmonial {
+        display: flex;
+        width: 100%;
+    }
+
+    .testmonial_name {
+        padding: 0rem;
+    }
+
+    .find_subcontain {
+        flex-wrap: wrap;
+    }
+
+    .find_subcontain_reverse {
+        flex-wrap: wrap-reverse;
+    }
+
+
+    .about_pledge {
+        height: 100%;
+    }
+
+    .testmonial {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .sub_footer {
+        display: flex;
+        justify-content: space-between;
+        margin: 2rem 0;
+        flex-wrap: wrap;
+    }
+
+    .left_footer {
+        width: 100%;
+        margin: 1.5rem 0;
+    }
+
+    .cool_links {
+        width: 100%;
+    }
+
+    .copy {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .copyright {
+        margin: 1rem 0;
+    }
 }
